@@ -1,0 +1,48 @@
+body {
+	background-color: white;
+	color: navy;
+	text-align: center;
+	margin-right: 80px;
+	margin-left: 80px;
+}
+
+#introduction {
+	border: 2px;
+	border-radius: 25px;
+	border-style: solid;
+	position: fixed;
+	top: 0px;
+	width: 90%;
+}
+
+#title {
+	font-size: 48px;
+	font-family: Lobster, cursive;
+}
+
+#contact-info {
+	font-size: 24px;
+	font-family: Arial;
+}
+
+#mynavbar {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.navbuttons {
+	font-size: 32px;
+	border-radius: 10px;
+	background-color: navy;
+	color: white;
+}
+
+#computerArtwork {
+	margin-top: 350px;
+	background-color: navy;
+	border-radius: 15px;
+	color: white;
+	font-size: 40px;
+}
