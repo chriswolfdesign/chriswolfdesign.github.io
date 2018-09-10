@@ -39,10 +39,44 @@ body {
 	color: white;
 }
 
-#computerArtwork {
+/*#computerArtwork {
 	margin-top: 350px;
 	background-color: navy;
 	border-radius: 15px;
 	color: white;
 	font-size: 40px;
+	height: 20px;
+	width: 80px;
+	border: solid, navy;
+} */
+
+#qualifications {
+	margin-top: 350px;
+	border: solid;
+	text-align: left;
+	font-size: 32px;
+	background-color: navy;
+	color: white;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+#qualification-mention {
+	font-size: 32px;
+	text-align: left;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.topic {
+	font-size: 18px;
+	text-decoration: none;
+	border: solid;
+	margin: 10px;
+	width: 40%;
+	border-radius: 10px;
+	display: table-cell;
+	padding: 5px;
+	background-color: white;
+	color: navy;
 }
