@@ -7,12 +7,12 @@ body {
 }
 
 #introduction {
-	border: 2px;
 	border-radius: 25px;
 	border-style: solid;
 	position: fixed;
 	top: 0px;
 	width: 90%;
+	margin-top: 10px;
 }
 
 #title {
@@ -79,4 +79,36 @@ body {
 	padding: 5px;
 	background-color: white;
 	color: navy;
+}
+
+#projects {
+	border: solid;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 32px;
+	text-align: left;
+}
+
+.project-header {
+	font-weight: bold;
+	text-decoration: underline;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.click-icon {
+	margin-top: 20px;
+	margin-left: 20px;
+	height: 200px;
+	width: 200px;
+}
+
+.project-title {
+	font-size: 24px;
+}
+
+#wolf-home-repair-title {
+	margin-left: 30px;
+	
 }
