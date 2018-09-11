@@ -50,6 +50,15 @@ body {
 	border: solid, navy;
 } */
 
+#about {
+	margin-top: 20px;
+	background-color: navy;
+	padding: 10px;
+	color: white;
+	text-align: left;
+	border-radius: 10px;
+}
+
 #qualifications {
 	margin-top: 35px;
 	border: solid;
@@ -61,11 +70,17 @@ body {
 	border-radius: 20px;
 }
 
-#qualification-mention {
+#info {
+	margin-top: 20px;
+	padding-right: 300px;
+}
+
+.header {
 	font-size: 32px;
 	text-align: left;
 	font-weight: bold;
 	text-decoration: underline;
+	color: white;
 }
 
 .topic {
