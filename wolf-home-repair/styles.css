@@ -6,8 +6,9 @@ body {
 #introduction {
 	text-align: right;
 	border: solid;
-	padding 10px;
+	padding 20px;
 	font-size: 32px;
+	margin-bottom: 30px;
 }
 
 #title {
@@ -20,4 +21,23 @@ body {
 	margin-right: 200px;
 	height: 200px;
 	width: 200px;
+}
+
+#contact {
+	padding: 10px;
+}
+
+#slideshow {
+	width: 10%;
+	height: 40%;
+	margin-top: 100px;
+}
+
+#slideshow-image {
+	width: 700px;
+	height: 500px;
+	margin-left: 275%;
+	border-color: #09A2E0;
+	border: solid;
+	margin-bottom: 20px;
 }
