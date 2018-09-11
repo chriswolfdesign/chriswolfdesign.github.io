@@ -1,0 +1,23 @@
+body {
+	background-color: #DDDDDD;
+	color: #09A2E0;
+}
+
+#introduction {
+	text-align: right;
+	border: solid;
+	padding 10px;
+	font-size: 32px;
+}
+
+#title {
+	font-size: 60px;
+	font-family: Lobster, cursive;
+	text-align: center;
+}
+
+#icon {
+	margin-right: 200px;
+	height: 200px;
+	width: 200px;
+}
