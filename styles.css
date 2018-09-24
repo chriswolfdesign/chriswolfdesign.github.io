@@ -130,3 +130,17 @@ body {
 #java-snake-title {
   margin-left: 54px;
 }
+
+.YouTube {
+  font-size: 18px;
+  margin-top: 40px;
+  border: solid;
+  border-radius: 15px;
+}
+
+#video {
+  margin-top: 30px;
+  /* margin-left: 400px; */
+  padding-bottom: -1500px;
+  margin-bottom: 20px;
+}
