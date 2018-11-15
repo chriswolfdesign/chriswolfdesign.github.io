@@ -1,0 +1,44 @@
+body {
+    background-color: purple;
+    color: #35c2ff;
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+#intro {
+    font-size: 32px;
+    border: 2px solid #35c2ff;
+    border-radius: 5px;
+    /*margin-left: 120px;*/
+    /*margin-right: 120px;*/
+    text-align: center;
+}
+
+#name {
+    font-family: Indie Flower;
+    font-size: 60px;
+}
+
+.intro-image {
+    width: 281px;
+    height: 250px;
+}
+
+#apple {
+    margin-right: 20px;
+}
+
+#notes {
+    margin-left: 20px;
+}
+
+#homepagepicture {
+    width: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#homepage-info {
+    font-size: 24px;
+}
