@@ -6,12 +6,10 @@ body {
     padding-right: 120px;
 }
 
-#intro {
+#information {
     font-size: 32px;
     border: 2px solid #35c2ff;
     border-radius: 5px;
-    /*margin-left: 120px;*/
-    /*margin-right: 120px;*/
     text-align: center;
 }
 
@@ -21,7 +19,7 @@ body {
 }
 
 .intro-image {
-    width: 281px;
+    width: 256px;
     height: 250px;
 }
 
@@ -41,4 +39,21 @@ body {
 
 #homepage-info {
     font-size: 24px;
+}
+
+.navbar {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-primary {
+    background-color: #5da0ff;
+    color: blue;
+    padding: 3px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#aboutpic {
+    height: 500px;
 }
