@@ -96,7 +96,7 @@ body {
   color: navy;
 }
 
-#projects {
+#projects, #certifications {
   border: solid;
   padding: 10px;
   margin-top: 20px;
@@ -144,4 +144,18 @@ body {
   /* margin-left: 400px; */
   padding-bottom: -1500px;
   margin-bottom: 20px;
+}
+
+#certification-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.certification-title {
+  font-size: 14px;
+}
+
+.certification-thumbnail {
+  width: 150px;
+  height: 150px;
 }
