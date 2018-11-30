@@ -67,3 +67,9 @@ body {
 .content {
     text-align: left;
 }
+
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
