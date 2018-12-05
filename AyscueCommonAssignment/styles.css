@@ -52,10 +52,6 @@ body {
     background-color: maroon;
 }
 
-#aboutpic {
-    height: 500px;
-}
-
 .content {
     /*text-align: left;*/
 }
@@ -76,4 +72,9 @@ body {
 
 p {
     text-align: left;
+}
+
+.image-wrapper {
+    text-align: center;
+    font-size: 10px;
 }
