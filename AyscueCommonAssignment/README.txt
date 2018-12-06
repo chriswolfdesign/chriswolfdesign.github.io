@@ -19,6 +19,3 @@ Notes to Future Developers:
         - More graphical interest could be implemented (consider using JavaScript)
         - Opportunities for considerable refactorization
 
-    Experience with Client:
-        - Client does not pay financially, but will offer compensation in hugs and kisses xoxoxo <3
-        - Client is creative in expressing gratitude for labor
