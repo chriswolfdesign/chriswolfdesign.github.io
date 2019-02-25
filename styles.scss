@@ -1,0 +1,23 @@
+/* Values for introduction */
+$background-color: navy;
+$font-color: rgb(80, 238, 214);
+$margin: 5%;
+$screen-height: 100vh;
+$body-font-size: 18px;
+
+body {
+    font-size: $body-font-size;
+}
+
+#introduction {
+    background-image: url(CodingPicture.png);
+    color: $font-color;
+    height: $screen-height;
+    padding-top: 25%;
+}
+
+#welcome {
+    font-size: 48px;
+    font-family: Lobster, cursive;
+    font-weight: bold;
+}
