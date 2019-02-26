@@ -8,7 +8,9 @@ $screen-height: 100vh;
 $body-font-size: 18px;
 $margin-for-technology-items: 10px;
 $margin-from-left-edge: 5px;
+$technology-header-font-size: 12px;
 
+/* PLACEHOLDERS */ 
 %click-pointer {
     cursor: pointer;
 }
@@ -36,7 +38,7 @@ body {
 
     #technology-header {
         padding-top: 10px;
-        font-size: 12px;
+        font-size: $technology-header-font-size;
         margin-bottom: $margin-for-technology-items;
     }
 
