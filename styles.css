@@ -1,6 +1,49 @@
 /* Values for introduction */
+#technology-sidebar .technology-item, #my_navbar #technology {
+  cursor: pointer; }
+
 body {
-  font-size: 18px; }
+  font-size: 18px;
+  background-color: black; }
+
+#technology-sidebar {
+  font-family: Ubuntu;
+  background-color: #8845c7;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 92.6vh;
+  width: 20%;
+  border: solid black 3px;
+  border-radius: 10px; }
+  #technology-sidebar * {
+    padding-left: 5px; }
+  #technology-sidebar #technology-header {
+    padding-top: 10px;
+    font-size: 12px;
+    margin-bottom: 10px; }
+  #technology-sidebar .technology-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px; }
+  #technology-sidebar .technology-item:hover {
+    background-color: navy; }
+
+#my_navbar {
+  background-color: #8845c7;
+  color: white;
+  width: 100%;
+  margin-bottom: 0px;
+  /* Remove default space from bootstrap */
+  position: absolute;
+  top: 0;
+  padding-left: 5px; }
+  #my_navbar .nav-item {
+    padding-top: 10px;
+    font-family: Ubuntu; }
+  #my_navbar #technology {
+    display: inline-block; }
 
 #introduction {
   background-image: url(CodingPicture.png);

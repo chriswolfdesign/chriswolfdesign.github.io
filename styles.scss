@@ -1,12 +1,75 @@
 /* Values for introduction */
-$background-color: navy;
+$nav-bar-background-color: rgb(136, 69, 199);
+$default-background-color: black;
+$side-bar-distance-from-top: 92.6vh;
 $font-color: rgb(80, 238, 214);
 $margin: 5%;
 $screen-height: 100vh;
 $body-font-size: 18px;
+$margin-for-technology-items: 10px;
+$margin-from-left-edge: 5px;
+
+%click-pointer {
+    cursor: pointer;
+}
 
 body {
     font-size: $body-font-size;
+    background-color: $default-background-color;
+}
+
+#technology-sidebar {
+    font-family: Ubuntu;
+    background-color: $nav-bar-background-color;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: $side-bar-distance-from-top;
+    width: 20%;
+    border: solid black 3px;
+    border-radius: 10px;
+
+    * {
+        padding-left: $margin-from-left-edge;
+    }
+
+    #technology-header {
+        padding-top: 10px;
+        font-size: 12px;
+        margin-bottom: $margin-for-technology-items;
+    }
+
+    .technology-item {
+        @extend %click-pointer;
+        padding-top: $margin-for-technology-items;
+        padding-bottom: $margin-for-technology-items;
+        font-size: 24px;
+    }
+
+    .technology-item:hover {
+        background-color: navy;
+    }
+}
+
+#my_navbar {
+    background-color: $nav-bar-background-color;
+    color: white;
+    width: 100%;
+    margin-bottom: 0px; /* Remove default space from bootstrap */
+    position: absolute;
+    top: 0;
+    padding-left: $margin-from-left-edge;
+
+    .nav-item {
+        padding-top: 10px;
+        font-family: Ubuntu;
+    }
+
+    #technology {
+        @extend %click-pointer;
+        display: inline-block;
+    }
 }
 
 #introduction {
