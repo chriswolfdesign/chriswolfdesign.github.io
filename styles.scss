@@ -36,6 +36,8 @@ a:visited {
     text-decoration: none;
 }
 
+
+
 #technology-sidebar {
     font-family: Ubuntu;
     background-color: $nav-bar-background-color;
@@ -64,6 +66,10 @@ a:visited {
         padding-top: $margin-for-technology-items;
         font-size: 24px;
         margin-bottom: $margin-for-technology-items;
+
+        @media (max-width: 1000px) {
+            font-size: 14px;
+        }
     }
 
     .technology-item:hover {
