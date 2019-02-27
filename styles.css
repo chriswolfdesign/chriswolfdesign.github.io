@@ -7,6 +7,19 @@ body {
   font-size: 18px;
   background-color: black; }
 
+a {
+  color: inherit;
+  display: block; }
+
+a:hover {
+  color: inherit;
+  text-decoration: none; }
+
+a:visited {
+  color: inherit;
+  text-decoration: none;
+  text-decoration: none; }
+
 #technology-sidebar {
   font-family: Ubuntu;
   background-color: #8845c7;
@@ -14,10 +27,11 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 92.6vh;
+  height: 92.5%;
   width: 20%;
   border: solid black 3px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  display: none; }
   #technology-sidebar * {
     padding-left: 5px; }
   #technology-sidebar #technology-header {
@@ -26,8 +40,8 @@ body {
     margin-bottom: 10px; }
   #technology-sidebar .technology-item {
     padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 24px; }
+    font-size: 24px;
+    margin-bottom: 10px; }
   #technology-sidebar .technology-item:hover {
     background-color: navy; }
 
@@ -39,7 +53,8 @@ body {
   /* Remove default space from bootstrap */
   position: absolute;
   top: 0;
-  padding-left: 5px; }
+  padding-left: 5px;
+  height: 5%; }
   #my_navbar .nav-item {
     padding-top: 10px;
     font-family: Ubuntu; }
