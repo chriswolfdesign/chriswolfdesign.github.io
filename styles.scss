@@ -95,11 +95,22 @@ a:visited {
     .nav-item {
         padding-top: 10px;
         font-family: Ubuntu;
+        float: left;
     }
 
     #technology {
         @extend %click-pointer;
         display: inline-block;
+    }
+
+    #right-side-of-navbar {
+        position: absolute;
+        right: 0;
+        margin-right: 20px;
+
+        .nav-item {
+            @extend %click-pointer;
+        }
     }
 }
 
