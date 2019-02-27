@@ -27,11 +27,15 @@ a:visited {
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 92.5%;
-  width: 20%;
+  height: 93.5%;
+  width: 15%;
   border: solid black 3px;
   border-radius: 10px;
   display: none; }
+  @media (max-width: 1000px) {
+    #technology-sidebar {
+      width: 25%;
+      font-size: 10px; } }
   #technology-sidebar * {
     padding-left: 5px; }
   #technology-sidebar #technology-header {

@@ -1,7 +1,7 @@
 /* Values for introduction */
 $nav-bar-background-color: rgb(136, 69, 199);
 $default-background-color: black;
-$side-bar-distance-from-top: 92.5%;
+$side-bar-distance-from-top: 93.5%;
 $font-color: rgb(80, 238, 214);
 $margin: 5%;
 $screen-height: 100vh;
@@ -46,10 +46,15 @@ a:visited {
     bottom: 0;
     left: 0;
     height: $side-bar-distance-from-top;
-    width: 20%;
+    width: 15%;
     border: solid black 3px;
     border-radius: 10px;
     display: none;
+
+    @media (max-width: 1000px) {
+        width: 25%;
+        font-size: 10px;
+    }
 
     * {
         padding-left: $margin-from-left-edge;
