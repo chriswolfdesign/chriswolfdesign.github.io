@@ -20,6 +20,13 @@ a:visited {
   text-decoration: none;
   text-decoration: none; }
 
+.dropdowns {
+  background-color: #8845c7; }
+
+.dropdown-item {
+  font-size: 16px;
+  margin-bottom: 5px; }
+
 #technology-sidebar {
   font-family: Ubuntu;
   background-color: #8845c7;
