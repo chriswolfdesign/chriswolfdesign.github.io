@@ -64,12 +64,12 @@ a:visited {
     .technology-item {
         @extend %click-pointer;
         padding-top: $margin-for-technology-items;
-        font-size: 24px;
+        font-size: 2vh;
         margin-bottom: $margin-for-technology-items;
 
-        @media (max-width: 1000px) {
-            font-size: 14px;
-        }
+        // @media (max-width: 1000px) {
+        //     font-size: 14px;
+        // }
     }
 
     .technology-item:hover {

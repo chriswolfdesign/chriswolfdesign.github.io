@@ -40,11 +40,8 @@ a:visited {
     margin-bottom: 10px; }
   #technology-sidebar .technology-item {
     padding-top: 10px;
-    font-size: 24px;
+    font-size: 2vh;
     margin-bottom: 10px; }
-    @media (max-width: 1000px) {
-      #technology-sidebar .technology-item {
-        font-size: 14px; } }
   #technology-sidebar .technology-item:hover {
     background-color: navy; }
 
