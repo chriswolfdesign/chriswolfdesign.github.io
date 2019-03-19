@@ -1,3 +1,12 @@
+/**
+ * styles.scss
+ *
+ * Determines the styles for index.html
+ *
+ * @author Chris Wolf
+ * @version 1.0.0 (March 19, 2019)
+ * @contact chriswolfdesign@gmail.com
+ */
 /* Values for introduction */
 /* PLACEHOLDERS */
 #technology-sidebar .technology-item, #my_navbar #technology, #my_navbar #right-side-of-navbar .nav-item {
@@ -20,8 +29,12 @@ a:visited {
   text-decoration: none;
   text-decoration: none; }
 
+.dropdown:hover > .dropdowns {
+  display: block; }
+
 .dropdowns {
-  background-color: #8845c7; }
+  background-color: #8845c7;
+  margin: -0.125rem 0 0; }
 
 .dropdown-item {
   font-size: 16px;

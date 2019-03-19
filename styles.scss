@@ -1,3 +1,13 @@
+/**
+ * styles.scss
+ *
+ * Determines the styles for index.html
+ *
+ * @author Chris Wolf
+ * @version 1.0.0 (March 19, 2019)
+ * @contact chriswolfdesign@gmail.com
+ */
+
 /* Values for introduction */
 $nav-bar-background-color: rgb(136, 69, 199);
 $default-background-color: black;
@@ -36,8 +46,13 @@ a:visited {
     text-decoration: none;
 }
 
+.dropdown:hover > .dropdowns {
+    display:block;
+}
+
 .dropdowns {
     background-color: $nav-bar-background-color; 
+    margin: -0.125rem 0 0;
 }
 
 .dropdown-item {
