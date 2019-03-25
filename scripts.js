@@ -10,6 +10,8 @@
 
 // Set up original values and settings
 $(document).ready(function() {
+    // Alert the user that this page is still under development.
+    alert("This page is still under development.  Please check again soon!");
     // If the view technology button is clicked, have the technology sidebar
     // either slide into or out of view as appropriate
     $("#technology").click(function() {
