@@ -1,0 +1,25 @@
+Welcome to my vim tutorial!!!
+
+
+
+
+Try to get here without using the arrow keys!!!
+
+
+
+
+
+Now try to reach the star without using the arrow keys!!!               * 
+
+
+
+*                     Now, that star but remember, no arrow keys!!!
+
+
+
+
+
+
+
+
+You made it!!! Now let's go back to the top (don't you touch that up arrow)!!!

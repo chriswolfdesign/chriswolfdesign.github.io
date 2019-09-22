@@ -1,0 +1,37 @@
+Hello, my name is {insert your name here}!
+
+Please add the necessary character to turn : into a smiley face!
+
+Please add the amount of money owed to the end of the line: $
+
+* Oh no, I was new and said that I hated vim.  But now that I've practiced with
+* it, I'm starting to like it.  Will you fix that for me?
+
+I hate vim!
+
+See Hello.java for more examples
+
+* Add your favorite pizza topping below mine
+
+    Pepperoni
+    Bacon
+    Sausage
+
+* Now go back and add another pizza topping above all of mine
+
+* Oops, typo!  I accidentally added the word like twice, will you fix that for
+* me?
+
+I really like like vim!
+
+* Woah, I was editing my twitch profile and I accidentally included my
+* password!  Not only can other people log onto my account, my password is 
+* pretty embarrassing!!!!! Please, get rid of that ASAP!!!!!!!
+
+Twitch Profile:
+---------------
+Username: chriswolfdesign
+Twitter: chriswolfdesign
+Password: HelloPonyFan5EVER90
+
+
